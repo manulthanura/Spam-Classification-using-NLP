@@ -40,7 +40,71 @@
         android:textColor="@color/white"
         android:textSize="18sp"
         />
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:id="@+id/idLLEdt"
+        android:layout_below="@id/idTVCityName"
+        android:weightSum="5"
+        ><com.google.android.material.textfield.TextInputLayout
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:id="@+id/idTILCity"
+            android:layout_margin="10dp"
+            android:layout_weight="4.5"
+            android:background="@android:color/transparent"
+            android:hint="Enter City Name"
+            android:padding="5dp"
+            app:hintTextColor="@color/white"
+            android:textColorHint="@color/white"
+        >
+        <com.google.android.material.textfield.TextInputEditText
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:id="@+id/idEditCity"
+            android:importantForAutofill="no"
+            android:inputType="text"
+            android:singleLine="true"
+            android:textColor="@color/white"
+            android:textSize="14sp"
+            android:background="@android:color/transparent"/>
+        </com.google.android.material.textfield.TextInputLayout>
 
 
+        <ImageView
+            android:id="@+id/IVSearch"
+            android:layout_width="3dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="0.5"
+            android:layout_gravity="center"
+            android:layout_margin="10dp"
+            android:background="@android:color/transparent"
+            android:src="@drawable/ic_search"
+            app:tint="@color/white"
+            />
+    </LinearLayout>
 
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/idTVTemperature"
+        android:layout_below="@id/idLLEdt"
+        android:layout_margin="10dp"
+        android:gravity="center_horizontal"
+        android:padding="5dp"
+        android:text="23"
+        android:textColor="@color/black"
+        android:textSize="70dp"/>
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/idTVCondition"
+        android:layout_margin="10dp"
+        android:gravity="center"
+        android:textAlignment="center"
+        android:text="Condition"
+        android:textColor="@color/white"
+        android:layout_below=""
+        />
 </RelativeLayout>
