@@ -19,6 +19,14 @@
         android:id="@+id/idRLHome"
         android:visibility="visible"
         />
+    
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:scaleType="centerCrop"
+        android:src="@color/black_shade_1"
+        android:id="@+id/idIVBack"
+        />
 
 
 </RelativeLayout>
