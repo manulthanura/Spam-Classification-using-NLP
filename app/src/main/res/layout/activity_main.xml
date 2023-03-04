@@ -28,5 +28,19 @@
         android:id="@+id/idIVBack"
         />
 
+    <TextView
+        android:id="@+id/idTVCityName"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="30dp"
+        android:gravity="center"
+        android:padding="20dp"
+        android:text="City Name"
+        android:textAlignment="center"
+        android:textColor="@color/white"
+        android:textSize="18sp"
+        />
+
+
 
 </RelativeLayout>
