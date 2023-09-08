@@ -1,3 +1,3 @@
 # Spam-Classification-using-NLP
 
-Data Set - 
+Data Set - [spam.csv](./spam.csv)
