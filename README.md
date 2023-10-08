@@ -2,7 +2,7 @@
 
 ![Static Badge](https://img.shields.io/badge/Repo-Spam_Classification_using_NLP-orange)
 ![GitHub Repo stars](https://img.shields.io/github/stars/manulthanura/Spam-Classification-using-NLP?color=yellow)
-
+![]()
 <a href=\"https://colab.research.google.com/github/manulthanura/WeatherApp/blob/master/Spam_Classification_using_NLP.ipynb\" target=\"_parent\">
 <img src=\"https://colab.research.google.com/assets/colab-badge.svg\" alt=\"Open In Colab\"/></a>
 
